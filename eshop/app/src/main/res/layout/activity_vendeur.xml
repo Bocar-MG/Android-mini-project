@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alpha="0.8"
+    android:background="@drawable/boutique"
+    android:orientation="vertical"
+    tools:context=".vendeur">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="25dp"
+        android:background="#0A022E"
+        android:text="Dashboard"
+        android:textAlignment="center"
+        android:textColor="#F6F1F1"
+        android:textSize="24dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/bienvenu"
+        android:layout_width="match_parent"
+        android:layout_height="31dp"
+        android:layout_marginTop="25dp"
+        android:background="#805A566A"
+        android:textAlignment="center"
+        android:textColor="#F4F1F1" />
+
+    <Button
+        android:id="@+id/ajouter_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="30dp"
+        android:background="#0A022E"
+        android:text="Ajouter des articles"
+        android:textColor="#FAF8F8" />
+
+    <Button
+        android:id="@+id/consulter_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="30dp"
+        android:background="#0A022E"
+        android:text="Consulter les articles ajouter"
+        android:textColor="#F8F3F3" />
+
+    <Button
+        android:id="@+id/deconnexion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:background="#0A022E"
+        android:text="deconnexion"
+        android:textColor="#F6F2F2" />
+
+</LinearLayout>

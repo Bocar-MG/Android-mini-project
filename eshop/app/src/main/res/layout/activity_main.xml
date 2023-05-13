@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/shop"
+    android:alpha="0.8">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginRight="25dp"
+        android:background="#99FFFFFF"
+        android:text="e-Shopi"
+        android:textAlignment="center"
+        android:textColor="#0A022E"
+        android:textSize="50dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_marginTop="45dp"
+        android:background="#804A4242"
+        android:text="Se connecter"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="40dp"
+        android:background="#F4F3F3"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textColorHint="#070707" />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="40dp"
+        android:background="#F6F3F3"
+        android:ems="10"
+        android:hint="Mot de passe"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:textColorHint="#0B0A0A" />
+
+    <Button
+        android:id="@+id/se_connecter"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="80dp"
+        android:background="@color/white"
+        android:backgroundTint="#0A022E"
+        android:text="se connecter"
+        android:textColor="#FBF8F8"
+        android:textColorHint="#F6F1F1" />
+
+    <Button
+        android:id="@+id/inscription_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="80dp"
+        android:background="#F6F2F2"
+        android:backgroundTint="#0A022E"
+        android:text="S'inscrire"
+        android:textColor="#F6F5F5"
+        android:textColorHint="#F6F2F2" />
+
+</LinearLayout>
